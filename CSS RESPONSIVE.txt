@@ -1,0 +1,27 @@
+CSS RESPONSIVE
+
+-adaptive
+hanya bagus di satu device, kalau ada 10 device kita harus memiliki 10 desain/css yang berbeda
+-responsive
+hanya butuh 1 css/desain untuk diterapkan di berbagai device. ketika membuat desain responsive jangan lupa menyertakan meta tag
+
+-Breakpoints
+1. 576px (small device/landscape phone)
+2. 768px (tablets)
+3. 992px (laptop,dekstop)
+4. 1200px (wide screen)
+5. 1400px (large device)
+
+-fluid layout vs fix layout
+fluid itu lebih fleksibel contohnya pada penggunaan %, sedangkan fix biasanya menggunakan px
+
+-relative units
+1. %
+2. rem/em
+rem relatif terhadap root 1rem=16px. em relatif terhadap px parentnya
+3. vw/vh
+4. vmin/vmax
+
+-flexbox
+
+-grid

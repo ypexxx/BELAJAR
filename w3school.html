@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title> Belajar HTML </title>
+        <link rel="stylesheet" href="w3school.css">
+    </head>
+    <body>
+        <!-- Link -->
+        <a href="https://www.w3schools.com/html/html_basic.asp"> Link w3school </a>
+
+        <!-- Images -->
+        <img src="bg_kopi.jpg" alt="Gambar kopi" width="200px">
+
+        <!-- Style atribute -->
+        <p style="color: red;"> Style atribute </p>
+
+        <!-- Title tooltip -->
+        <p title="Keluar hover"> Title tooltip </p>
+
+        <!-- HTML Form start -->
+        <section>
+            <h2> HTML Forms </h2>
+            <form action="" target="_self" autocomplete="on" novalidate>
+                <label for="fname">First name: </label><br>
+                <input type="text" id="fname" name="fname" value="yuafiq"><br>
+                <label for="lname">Last name: </label><br>
+                <input type="text" id="lname" name="fname" value="alfin"><br>
+                <br>
+                <label for="radio">Pilih salah satu: </label><br>
+                <input type="radio" id="html" name="lname" value="Submit">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="CSS" name="lname" value="Submit">
+                <label for="CSS">CSS</label><br>
+                <br>
+                <label for="checkbox">centang salah satu: </label><br>
+                <input type="checkbox" id="checkbox" name="lname" value="Submit"><br>
+                <input type="checkbox" id="checkbox" name="lname" value="Submit"><br>
+                <br>
+                <label for="submit">silakan submit: </label><br>
+                <input type="submit" id="submit" name="lname" value="Submit"><br>
+                <input type="submit" id="submit" name="lname" value="Submit"><br>
+                <br>
+                <label for="button">silakan kumpulkan jawaban: </label><br>
+                <input type="button" id="button" name="lname" value="Submit"><br>
+                <input type="button" id="button" name="lname" value="Submit"><br>
+                <br>
+
+                <label for="cars">Choose a car: </label>
+                <select id="cars" name="cars" size="2" multiple>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Saab">Saab</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Audi" selected>Audi</option>
+                </select>
+                <input type="submit">
+                <br>
+
+                <label for="message" name="message">Text area: </label><br>
+                <textarea id="message" name="message" rows="10" cols="30"> </textarea>
+                <input type="submit">
+                <br><br>
+                <button type="button" onclick="alert('hello world')">Click me!</button>
+                <br><br>
+
+                <fieldset>
+                    <legend> Biodataku: </legend>
+                    <label for="nama">Nama: </label><br>
+                    <input type="text" id="nama"><br>
+                </fieldset>
+                <br><br>
+
+                <label for="browsers">List browsers: </label><br>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+                <br><br>
+
+                <input type="range" id="a" name="a" value="70"> 100 +
+                <input type="number" id="b" name="b" value="50"> =
+                <output name="x" for="a b"></output>
+                <br><br>
+
+                <label for="username">Username: </label><br>
+                <input type="text" id="username" name="username" value="nama" readonly><br>
+                <label for="pwd">Password: </label><br>
+                <input type="password" id="pwd" name="password">
+                <input type="reset" value="reset"><br><br>
+                <label for="color"> Pilih color: </label>
+                <input type="color" id="color"><br>
+                <br><br>
+
+                <label for="date">Masukkan tanggal lahir anda: </label><br>
+                <input type="date" min="2010-01-01"  max="2015-01-01" id="date" name="date">
+                <br><br>
+
+                <label for="timelocal">Time local: </label><br>
+                <input type="datetime-local" id="timelocal" name="timelocal">
+                <br><br>
+
+                <label for="email">Input email anda: </label><br>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="fileInput"> Input file: </label><br>
+                <input type="file" id="fileInput" name="fileInput" multiple><br>
+                <input type="submit">
+                <br><br>
+
+                <label for="quanty">Quanty between 1-10: </label><br>
+                <input type="number" id="quanty" min="1" max="10" value="5" step="2">
+                <input type="submit" id="quanty">
+                <br><br>
+
+                <label for="gsearch">Search google: </label><br>
+                <input type="search" id="gsearch" name="gsearch" disabled><br>
+                <input type="submit">
+                <br><br>
+
+                <label for="telp">Enter your phone number: </label><br>
+                <input type="tel" id="telp" name="telp" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" autofocus>
+            </form>
+        </section>
+        <!-- HTML Form start -->
+
+        <br><br>
+
+        <!-- Flex box start -->
+        <!-- Latihan -->
+        <div class="container">
+            <div class="satu">1</div>
+            <div class="dua">2</div>
+            <div class="tiga">3</div>
+            <div class="empat">4</div>
+        </div>
+        <br><br>
+
+        <!--  Flexbox Latihan 1 -->
+        <div class="container-satu">
+            <div class="kolom-utama">
+                <h2>Judul Artikel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nam exercitationem aspernatur. Nulla, modi laudantium beatae rem nostrum cum quasi vero dolores ex consectetur fugit?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatibus dolor perspiciatis commodi nobis repellat doloribus possimus eaque minima repudiandae? Accusamus neque ab delectus in inventore, sed veniam debitis. Hic modi libero nihil delectus quaerat nesciunt unde? Quod enim libero totam est eum, repellat facilis, aut ut quis tempora cum?
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eaque assumenda alias veritatis. Asperiores dicta exercitationem deserunt, enim similique in unde dolorum officiis placeat praesentium! Optio sint in ullam doloremque!
+                </p>
+                </p>
+            </div>
+            <div class="kolom-satu">
+                <h3>Sidebar Satu</h3>
+                <div class="ul">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                    <li><a href="">Link 5</a></li>
+                </div>
+            </div>
+            <div class="kolom-dua">
+                <h3>Sidebar Tiga</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam porro, blanditiis tenetur labore earum aliquam vitae dicta soluta cumque praesentium?</p>
+            </div>
+        </div>
+
+        <!-- Flexbox Latihan 2 -->
+        <div class="container-dua">
+            <div class="layanan satu">
+                <h4>Layanan 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, debitis.</p>
+            </div>
+            <div class="layanan dua">
+                <h4>Layanan 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+            </div>
+            <div class="layanan tiga">
+                <h4>Layanan 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vero, accusamus molestias quidem non dolorum.</p>
+            </div>
+        </div>
+
+        <!-- Flexbox Latihan 3 -->
+        <div class="container-tiga">
+            <div class="thumbnail">
+                <img src="bg_kopi.jpg">
+            </div>
+
+            <div class="thumbnail">
+                <img src="3426526.jpg">
+            </div>
+        </div>
+
+        <!-- Flexbox Latihan 4 -->
+        <div class="container-empat">
+            <div class="card">
+                <div class="header"></div>
+
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores, ratione voluptatibus repellendus nam necessitatibus.</p>
+                    <button>Buy Now!</button>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Flex box end -->
+
+      <div class="percobaan">
+        <p style="color:blue; font-size:20px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dicta vero? Aut ducimus exercitationem aliquid nostrum dignissimos? Nemo, voluptatem quasi?</p>
+      </div>
+
+      <!-- HTML List -->
+      <ul type="circle">
+        <li>Mangga</li>
+        <li>Apel</li>
+        <li>Durian</li>
+      </ul>
+
+      <ol type="A", start="5">
+        <li>Toyota</li>
+        <li>Daihatsu</li>
+        <li>Corola</li>
+      </ol>
+
+      <dl>
+        <dt>Mangga arum baru</dt>
+        <dd>Nama buah</dd>
+        <dt>Toyota</dt>
+        <dd>Merek sebuah mobil</dd>
+      </dl>
+
+      <ul>
+        <li>Daftar calon presiden</li>
+            <ol>
+                <li>Anis</li>
+                <li>Prabowo</li>
+                <li>Ganjar</li>
+            </ol>
+        </ul>
+
+    </body> 
+</html>`

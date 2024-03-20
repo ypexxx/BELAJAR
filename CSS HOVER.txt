@@ -1,0 +1,7 @@
+CSS HOVER
+
+Hover bekerja ketika cursor kita mengarah ke item tersebut
+-format = nama_class:hover {nilai}
+-a:link = ketika link dalam keadaan default
+-a:hover = berubah ketika cursor ada di item tersebut
+-a:active = berubah ketika item tersebut dipencet/bekerja

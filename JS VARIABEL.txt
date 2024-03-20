@@ -1,0 +1,32 @@
+JS VARIABEL
+
+ada 4 macam variabel dalam javascript:
+1. Automatically
+2. Var
+3. Let
+4. Const
+
+Akan tetapi lebih baik kalau selalu mendeklarasikan variabel di depanya
+
+1.Automatically, contoh:
+x = 5;
+y = 6;
+z = x + y;
+
+4. Const, contoh:
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+
+variabel const adalah konstan dan tidak dapat dirubah setelahnya
+sedangkan variabel let dapat diubah
+
+variabel let hanya dapat dipanggil berulangkali dalam satu fungsi yang sama, jika dipanggil diluar fungsi itu maka akan  error.
+
+variabel var dapat dipanggil kembali didalam maupun diluar fungsi yang berbeda sekalipun
+
+-selalu gunakan const jika nilai dan tipenya tidak berubah
+-gunakan let jika anda tidak dapat menggunakan const
+-hanya gunakan var jika anda menggunakan browser lama/mengubah nilainya
+
+

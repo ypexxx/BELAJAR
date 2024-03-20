@@ -1,0 +1,12 @@
+CSS POSITION
+
+1. Static
+nilai default dari sebuah item ketika tidak diberi position
+2. Relative
+akan membuat item naik satu layer. dan jika item itu digeser kanan kiri atas bawah tidak akan mempengaruhi elemen yang lainya. dan posisi awal item tersebut masih tetap ada.
+3. Absolute
+akan membuat item naik satu layer dan jika elemen itu digeser kanan kiri atas bawah akan relatif terhadap item parentnya. dan posisi awal item tersebut akan hilang
+4. Fixed
+jika item itu digeser kanan kiri atas bawah akan relatif terhadap body. dan ketika di scrool juga akan tetap berada di tempat yang sama.
+5 z-index
+permainan layer

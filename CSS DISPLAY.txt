@@ -1,0 +1,20 @@
+CSS DISPLAY
+1. display: inline;
+-element HTML yang secara defaultnya tidak menambahkan baris baru ketika dibuat,
+-lebar dan tingginya sebesar konten yang ada di dalamnya dan kita tidak dapat mengatur tinggi dan lebar element yang ada di dalamnya,
+-margin dan padding hanya mempengaruhi element secara horizontal.
+-contoh tag default inline: span, button, b, i, a, select, dll
+
+2. display: inline-block;
+-tidak ada element secara default memiliki properti display inline-block sehingga kita harus secara manual merubah properti tersebut
+-perilaku dasarnya mirip dengan inline
+-biasanya dipakai untuk element tag inline agar bisa mengatur margin dan padding horizontal dan vartikal
+
+3. display: block;
+-elemnent HTML secara default menambahkan baris baru ketika dimuat
+-jika tidak diatur lebarnya maka default dari element block akan memenuhi lebar dari browser
+-kita dapat mengatur tinggi dan lebar dari element block
+- contoh default tag block: h1-h6, p, ul, li, div, dll.
+
+4. display: none;
+-menghilangkan konten HTML

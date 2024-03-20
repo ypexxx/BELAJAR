@@ -1,0 +1,109 @@
+VERSION CONTROL SYSTEM (VCS)
+
+----- GIT && GITHUB -----
+
+VCS adalah sebuah system yang menyimpan rekaman/snapshot perubahan pada file dan memungkinkan kita untuk bekerja secara kolaborasi.
+
+- Repository == folder
+- commit : rekaman/snapshot dari repo kita
+- Hash : penanda unik berupa angka pada setiap terjadinya commit 
+- checkout : berpindah ke sebuah commit
+- Branch : cabang bebas dari sebuah commit
+- Merge : menggabungkan branch
+- Remote : sumber yang memiliki repo
+- Clone : mengambil repo dari remote
+- Push : mengirimkan commit ke repo
+- Pull : mengambil commit dari repo
+
+FORK (menduplikat repo orang lain beserta history commitnya)
+
+Melihat list info git kita
+- git config --list
+
+Mengganti username dan email git
+- git config --global user.name "<username>"
+- git config --global user.email "<email>"
+
+BEKERJA DENGAN GIT
+Git command(local)
+
+1. Inisialisasi git repository
+- git init
+
+2. Melihat info perubahan
+- git status
+
+3. Menambahkan file yang sudah diedit ke staging area
+- git add <nama file>
+- git add . (untuk menambahkan semua file edit ke staging area)
+- git rm --cached <nama file> (untuk mengeluarkan dari staging area)
+
+4. Commit file
+- git commit -m "<pesan perubahan kamu>"
+
+5. Melihat history perubahan commit
+- git log
+- git log --<nama file> (untuk melihat spesifik perubahan sebuah file)
+
+6. Mengembalikan file yang dihapus / reverse
+- git checkout <5 digit pertama hash nya> --<nama file>
+
+7. cara cepat add dan commit syaratnya sudah pernah di add
+- git commit -am "<pesan perubahan kamu>
+
+8. Mengecek list branch yang ada
+- git branch
+
+9. Menambahkan sebuah branch
+- git branch <nama branch baru>
+
+10. Menampilkan diagram cabang branch dan commit
+- git log --all --decorate --oneline --graph
+- alias <nama shortcut>="git log --all --decorate --oneline --graph" (membuat shortcut template)
+
+11. Berpindah branch
+- git checkout <nama branch>
+
+Merge branch itu ada dua yaitu fast forward/direct path dan three-way merge. Three way merge menghasilkan commit baru
+cara merging itu headnya dipindah ke master dulu baru merge
+
+12. cara merge (fast forward/direct path)
+- git merge <nama branch yang dituju> (fast forward/direct path)
+
+13. Cara melihat branch mana yang sudah di merge
+- git branch --merged
+
+14 Cara menghapus branch
+- git branch -d <nama branch yang mau dihapus>
+
+15. cara merge (three-way merge/recursive)
+- git merge <nama branch yang dituju> (three-way merge/recursive)
+
+16. Cara kembali ke commit yang lama
+- git checkout <7 digit pertama hashnya>
+
+Cara clone repo di github ke laptop kita adalah dengan mencopy link yang ada di github kemudian buka console
+
+17. Clone repo githup ke laptop
+- git clone <link yang sudah di copy>
+
+18. Cek nama remote
+- git remote
+
+19. Cek data remote lebih detail
+- git remote -v
+
+20. Cara upload file baru dan menghubungkan local ke github
+- git remote add <nama remote> <link repo github>
+
+21. Cara push pertama kali
+- git push -u <nama remote> <nama branch>
+
+22. Cara push ke github
+- git push
+
+23. Cara cek remote sudah sampai mana
+- git fetch
+
+24. Cara mendownload perubahan di github ke local
+- git pull

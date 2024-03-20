@@ -1,0 +1,10 @@
+CSS AFTER & BEFORE
+
+sebuah pseudo-element yang memungkinkan kita untuk menambahkan konten (sebelum/sesudah element) pada halaman HTML hanya melalui CSS saja (tanpa harus menambahkan pada kode HTML). ditandai dengan ::before/after
+
+yang bisa kita isi dalam content ::before/after
+-content: "string";
+-content: "url(image);
+-content: " "; (kosong)
+-content: counter(item);
+

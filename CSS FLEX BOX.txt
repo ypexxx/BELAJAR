@@ -1,0 +1,21 @@
+FLEX BOX
+
+Sebuah metode untuk mengatur jarak/posisi dalam sebuah container. Flex box hanya bisa mengatur 1 dimensi, berbeda dengan css grid yang dapat mengatur 2 dimensi.
+
+Container = pembungkus
+Items = elemen yang ada dalam container
+Main axis = sumbu utama secara horizontal/vertical
+Cross axis = sumbu kedua secara vertical/horizontal
+Main start = mulainya container/items
+Main end = berakhirnya container/items
+
+Border = garis tepi
+-Flex-direction = arah konten (row, row-reverse, column, column-reverse)
+-Flex-wrap = ngejejelin items dengan ukuran asli (wrap, nowrap)
+-Justify-content = spasi antar items (space-between, space-around, center, flex-start)
+-align-items = penjajaran items secara vertikal (flex-start, center, stretch, baseline)
+-Align-content = penjajaran banyak konten secara vertikal (flex-start, flex-end, center, space-between, space-around)
+-Order = urutan konten (order)
+-Flex = ukuran memenuhi kontainer (1, 2, 3, 4)
+-Align-self = align items tapi cuma 1 items (auto, center, flex-start, flex-end)
+

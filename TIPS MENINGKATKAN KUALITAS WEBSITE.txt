@@ -1,0 +1,10 @@
+TIPS MENINGKATKAN KUALITAS WEBSITE
+
+1. Perbaiki website yang overload
+bisa dicek dengan ekstensi lighthouse
+-optimasi gambar dengan size yang kecil (web resize = squoosh)
+2. pindahkan gambar dll ke CDN(content delivery network)
+-perhatikan cache
+3. keamanan
+-minimal menggunakan https
+-kelola cookies dengan baik
