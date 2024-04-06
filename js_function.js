@@ -227,3 +227,26 @@ class tabungan2 {
     console.log("total tabungan = " + this.totalTabungan);
   }
 }
+
+// closure
+function ucapkanSalam(waktu) {
+  return function(nama) {
+    console.log("selamat datang " + nama + " dan selamat " + waktu + " semoga harimu menyenangkan");
+  }
+}
+let selamatPagi = ucapkanSalam('pagi');
+let selamatSiang = ucapkanSalam('siang');
+let selamatMalam = ucapkanSalam('malam');
+selamatPagi("user a");
+selamatSiang("user b");
+selamatMalam("user c");
+
+let add = (function() {
+  let counter = 0;
+  return function() {
+    return ++counter;
+  }
+})();
+console.log(add());
+console.log(add());
+console.log(add());
