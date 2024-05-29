@@ -1,4 +1,4 @@
-VERSION CONTROL SYSTEM (VCS)
+git VERSION CONTROL SYSTEM (VCS)
 
 ----- GIT && GITHUB -----
 
@@ -49,7 +49,7 @@ Git command(local)
 - git checkout <5 digit pertama hash nya> --<nama file>
 
 7. cara cepat add dan commit syaratnya sudah pernah di add
-- git commit -am "<pesan perubahan kamu>
+- git commit -am "<pesan perubahan kamu>"
 
 8. Mengecek list branch yang ada
 - git branch
